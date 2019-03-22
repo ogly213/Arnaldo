@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/Podometro"
+            android:icon="@drawable/pies"
+            android:title="Podometro" />
+        <item
+            android:id="@+id/Register"
+            android:checkable="true"
+            android:enabled="true"
+            android:icon="@drawable/action"
+            android:title="Registro de Pasos "
+            android:visible="true" />
+        <item
+            android:id="@+id/Calorias"
+            android:icon="@drawable/gordo12"
+            android:title=" Calorias Recomendadas" />
+        <item
+            android:id="@+id/Calculadora"
+            android:checkable="false"
+            android:enabled="true"
+            android:icon="@drawable/gordo"
+            android:title="Calculador masa muscular"
+            android:visible="true" />
+        <item
+            android:id="@+id/IMC"
+            android:icon="@drawable/heart"
+            android:title="IMC" />
+    </group>
+
+    <item android:title="Comparte La APP!">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Compartir" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Opinar" />
+        </menu>
+    </item>
+
+</menu>
